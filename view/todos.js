@@ -30,8 +30,7 @@ const getTodoElement = (todo, index, events) => {
     element
       .querySelector('input.toggle')
       .checked = true;
-
-    }
+  }
   
   const handler = e => events.deleteItem(index);
 
